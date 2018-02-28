@@ -10,8 +10,7 @@ body {
   	height: 100vh;
   	background-image: 
 	  linear-gradient(to right bottom, 
-     rgba(76, 216, 255, 0.8),
-     rgba(30, 108, 217, 0.8)),
+     rgba(76, 216, 255, 0.8), rgba(30, 108, 217, 0.8)),
      url('https://sftrekkingdotcom.files.wordpress.com/2018/02/12colombia1-superjumbo.jpg');
   	
 	background-size: cover;
