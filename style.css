@@ -149,8 +149,8 @@ a.anchor {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     margin-right: 40px;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     float: left;
     margin-bottom: 20px;
@@ -158,14 +158,30 @@ a.anchor {
 }
   
 .circular:hover {
-    -ms-transform: rotate(360deg); 
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+    --ms-transform: rotate(360deg); 
+    --webkit-transform: rotate(360deg);
+    --transform: rotate(360deg);
+    -ms-filter: grayscale(40%);
+    -webkit-filter: grayscale(40%);
+    filter: grayscale(100%);
     -webkit-transition-duration: 3s;
     -moz-transition-duration: 3s;
     transition-duration: 3s;
 }
 
+.circle-frame {
+    background-image: url('https://sftrekkingdotcom.files.wordpress.com/2017/07/hiepprofile_smaller.jpg');
+    background-position: 50% 35%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border: 15px solid #00bcd4;
+    border-radius: 50%;
+    min-width: 14.5%; /* depends on size of photo & container */
+    height: auto; /* just to reset to default if needed */
+    padding-top: 14.5%; /* must equal min-width to make a circle */
+    float: left; /* or position absolute */  
+  }
+  
 .links {
     display: -webkit-box;
     display: -ms-flexbox;
