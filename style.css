@@ -156,7 +156,7 @@ a.anchor {
     margin-bottom: 20px;
     border: 15px solid #00bcd4;
 }
-
+  
 .circular:hover {
     -ms-transform: rotate(360deg); 
     -webkit-transform: rotate(360deg);
