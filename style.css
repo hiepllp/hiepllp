@@ -140,6 +140,8 @@ a.anchor {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    max-width: 100%;
+    height: auto;
 }
 
 .circular {
