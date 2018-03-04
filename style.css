@@ -158,9 +158,6 @@ a.anchor {
 }
   
 .circular:hover {
-    --ms-transform: rotate(360deg); 
-    --webkit-transform: rotate(360deg);
-    --transform: rotate(360deg);
     -ms-filter: grayscale(40%);
     -webkit-filter: grayscale(40%);
     filter: grayscale(100%);
@@ -169,20 +166,7 @@ a.anchor {
     transition-duration: 3s;
 }
 
-.circle-frame {
-    background-image: url('https://sftrekkingdotcom.files.wordpress.com/2017/07/hiepprofile_smaller.jpg');
-    background-position: 50% 35%;
-    background-repeat: no-repeat;
-    background-color: white;
-    border: 15px solid #00bcd4;
-    border-radius: 50%;
-    min-width: 14.5%; /* depends on size of photo & container */
-    height: auto; /* just to reset to default if needed */
-    padding-top: 14.5%; /* must equal min-width to make a circle */
-    float: left; /* or position absolute */  
-  }
- 
-  .ratio {
+.ratio {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -202,7 +186,7 @@ a.anchor {
     border: 8px solid #00bcd4;
   border-radius: 50%;
 }
-  
+
 .links {
     display: -webkit-box;
     display: -ms-flexbox;
