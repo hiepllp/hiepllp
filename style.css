@@ -181,6 +181,27 @@ a.anchor {
     padding-top: 14.5%; /* must equal min-width to make a circle */
     float: left; /* or position absolute */  
   }
+ 
+  .ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;    
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border: 8px solid #00bcd4;
+  border-radius: 50%;
+}
   
 .links {
     display: -webkit-box;
