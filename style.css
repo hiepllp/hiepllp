@@ -113,6 +113,7 @@ a.anchor {
 .project-link {
     color: white;
     text-decoration: none;
+    line-height: 35px;
 }
 
 .icons {
@@ -154,7 +155,7 @@ a.anchor {
     border-radius: 50%;
     float: left;
     margin-bottom: 20px;
-    border: 15px solid #00bcd4;
+    border: 10px solid #00bcd4;
 }
   
 .circular:hover {
